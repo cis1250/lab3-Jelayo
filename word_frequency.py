@@ -26,8 +26,5 @@ if (is_sentence(user_sentence) == True):
     user_sentence = user_sentence.replace(".", "")
     divided = user_sentence.lower().split()
 
-    divided.count('to')
-    x = divided.count('to')
-    print(x)
     for y in divided:
         print(y, divided.count(y))
