@@ -27,4 +27,5 @@ if (is_sentence(user_sentence) == True):
     divided = user_sentence.lower().split()
 
     for y in divided:
-        print(y, divided.count(y))
+        print(y.title(), divided.count(y))
+
