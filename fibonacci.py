@@ -8,4 +8,5 @@ else:
     print("0")
     for z in range (int(fib)):
         x, y = y, x + y
+        if x >= int(fib): break
         print(x)
